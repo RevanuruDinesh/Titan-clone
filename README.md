@@ -3,10 +3,10 @@ Titan Watch Clone ⌚
 🚀 Introduction
 Welcome to the Titan Watch Clone – a fully responsive and interactive replica of the Titan Watches official website. This project aims to recreate the design, layout, and user experience of the Titan website using modern web technologies.
 
-🎯 Project Goals
-🔹 To build a responsive layout for all screen sizes
-🔹 To implement smooth animations and transitions
-🔹 To provide an interactive user experience with functional features
+🎯 Project Goals/
+🔹 To build a responsive layout for all screen sizes/
+🔹 To implement smooth animations and transitions/
+🔹 To provide an interactive user experience with functional features/
 
 🛠️ Technologies Used
 Frontend: HTML5, CSS3, JavaScript
