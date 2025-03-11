@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinnu Watch Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+
+    <div class="logo">
+        <img src="img/8.png" alt="Titan Logo"> <!-- Add your Titan logo -->
+        TITAN
+    </div>
+
+    <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search...">
+        <i class="fas fa-microphone"></i>
+    </div>
+
+    <div class="header-icons">
+        <div><i class="fas fa-user"></i> Account</div>
+        <div><i class="fas fa-heart"></i> Wishlist</div>
+        <div><i class="fas fa-shopping-cart"></i> Cart</div>
+        <div><i class="fas fa-box"></i> Track Order</div>
+    </div>
+
+</header>
+
+
+
+<!-- Menu Button -->
+<button class="menu-btn" onclick="openNav()">☰ Menu</button>
+
+<!-- Side Navigation -->
+<nav id="sideNav">
+    <span class="close-btn" onclick="closeNav()">&times;</span>
+    <br>
+    <br>
+    <div class="logo">⌚ Watch Zone</div>
+    <ul class="nav-links">
+        <li><a href="#home" onclick="closeNav()">Home</a></li>
+        <li><a href="#collection" onclick="closeNav()">Collection</a></li>
+        <li><a href="#about" onclick="closeNav()">About</a></li>
+        <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+    </ul>
+</nav>
+<div class="nav-body">
+    <a href="#">MEN</a>
+    <a href="#">WOMEN</a>
+    <a href="#">SMART WATCHES</a>
+    <a href="#">PREMIUM WATCHES</a>
+    <a href="#">WATCHES</a>
+    <a href="#">INTERNATIONAL BRANDS</a>
+    <a href="#">GIFTING</a>
+    <a href="#">SALE</a>
+    <a href="#">WATCH SERVICE</a>
+    <a href="#">MORE</a>
+</div>
+<style>
+    .nav-body {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .nav-body a {
+        text-decoration: none;
+        color: #000;
+        margin: 0 15px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .nav-body a:hover {
+        color: #e0c87d;
+    }
+
+</style>
+
+
+
+
+<div class="content">
+
+    <!-- 🎥 Second Banner: Video Slideshow -->
+    <section class="banner">
+        <div class="slides" id="videoBanner">
+            <video class="slide" autoplay muted loop>
+                <source src="Videos/videoplayback.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+    </section>
+
+    <!-- 📸 First Banner: Image Slideshow -->
+    <section class="banner">
+        <div class="slides" id="imageBanner">
+            <img src=" https://assets.onecompiler.app/436smxxb2/43ba94s6x/Screenshot%202025-03-09%20225244.png" class="slide" alt="Luxury Watch">
+            <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot%202025-03-09%20121627.png" class="slide" alt="Elegant Timepiece">
+            <img src="https://assets.onecompiler.app/436smxxb2/43ba94s6x/Screenshot%202025-03-09%20224618.png" class="slide" alt="Luxury Watch">
+            <img src="https://assets.onecompiler.app/436smxxb2/43ba94s6x/Screenshot%202025-03-09%20224348.png" class="slide" alt="Luxury Watch">
+
+        </div>
+
+    </section>
+
+
+
+</div>
+
+
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot_2025-03-08_234052-removebg-preview.png">
+                <div class="introduce">
+                    <div class="title">Titan...</div>
+                    <div class="topic">Couple Set</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        This is a Titan Couple Watch Set, featuring a matching pair of elegant timepieces designed for men and women. Both watches have a sleek stainless steel mesh strap, a minimalist dial with chronograph sub-dials, and a sophisticated metallic finish. These watches offer quartz movement for precise timekeeping and a modern, stylish look, making them ideal for couples who want a coordinated accessory.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Titan Couple Set</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        This Titan Couple Watch Set combines elegance and functionality with a sleek mesh strap, chronograph dials, and quartz movement for accurate timekeeping. Its modern metallic finish and minimalist design make it a perfect choice for couples looking for a stylish and timeless accessory.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Price</p>
+                            <p>26,000 RS</p>
+                        </div>
+                        <div>
+                            <p>Dial</p>
+                            <p>Chronograph</p>
+                        </div>
+                        <div>
+                            <p>Color</p>
+                            <p>Metallic Grean</p>
+                        </div>
+                        <div>
+                            <p>Design</p>
+                            <p>Minimalist</p>
+                        </div>
+                        <div>
+                            <p>Display</p>
+                            <p>Analog</p>
+                        </div>
+                        <div>
+                            <p>Material</p>
+                            <p>Stainless Steel</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot_2025-03-09_111129-removebg-preview.png">
+                <div class="introduce">
+                    <div class="title">TITAN...</div>
+                    <div class="topic">Chronograph</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        This elegant chronograph watch combines style and functionality with its stainless steel two-tone bracelet and detailed analog display. It features multiple subdials, a date window, and gold-accented pushers for enhanced usability. Designed for precision and durability, this timepiece is perfect for formal occasions and everyday wear.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Luxurious Chronograph</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        This is a luxurious chronograph wristwatch with a two-tone stainless steel strap featuring gold and silver accents. It has a detailed analog dial with subdials for additional functions, a date display, and side pushers for controlling the chronograph. The watch showcases a sleek, premium design, making it perfect for both formal and casual wear.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Price</p>
+                            <p>29,000</p>
+                        </div>
+                        <div>
+                            <p>Dial</p>
+                            <p>Multi-Function</p>
+                        </div>
+                        <div>
+                            <p>Color</p>
+                            <p>Silver & Rose Gold</p>
+                        </div>
+                        <div>
+                            <p>Material</p>
+                            <p>Dual-Tone Metal</p>
+                        </div>
+                        <div>
+                            <p>Style</p>
+                            <p>Luxury</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot_2025-03-09_000438-removebg-preview-removebg-preview.png">
+                <div class="introduce">
+                    <div class="title">TITAN Mechanical.. </div>
+                    <div class="topic"> Dial Automatic watch</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        An Automatic Watch is a self-winding timepiece powered by the movement of the wearer's wrist, eliminating the need for a battery. It combines traditional craftsmanship with modern convenience, making it a favorite among watch enthusiasts.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Automatic Watch</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        This is a Titan Automatic Skeleton Watch, featuring a stylish open-heart dial that showcases the intricate mechanical movement inside. It has a self-winding mechanism, meaning it runs on wrist motion without requiring a battery. The watch has a sleek black mesh strap, a durable stainless steel case, and a modern, sophisticated design, making it perfect for both formal and casual wear.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Price</p>
+                            <p>31,000 RS</p>
+                        </div>
+                        <div>
+                            <p>Color</p>
+                            <p>Blue,Black</p>
+                        </div>
+                        <div>
+                            <p>Display </p>
+                            <p>Analog</p>
+                        </div>
+                        <div>
+                            <p>Power reserve </p>
+                            <p>12 Hours</p>
+                        </div>
+                        <div>
+                            <p>Material</p>
+                            <p>Stainless steel </p>
+                        </div>
+                        <div>
+                            <p>Durability</p>
+                            <p>Long-lasting</p>
+                        </div>
+                        <div>
+                            <p>Style</p>
+                            <p>Elegant</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot_2025-03-09_113351-removebg-preview.png">
+                <div class="introduce">
+                    <div class="title">Titan Nebula...</div>
+                    <div class="topic">18k Gold Analog Diamond</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        Vintage 18K Gold Diamond Bezel Wristwatch - Classic Elegance with a Touch of Brilliance. This vintage wristwatch in 18K gold combines timeless design with refined luxury, ideal for those who appreciate exquisite craftsmanship. Powered by Titan's in house Made in India quartz movement, it delivers both reliable precision and elegance
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">18k Gold Analog Diamond</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        aired with an 18K gold Milanese strap for a seamless and luxurious fit, this 39 mm watch offers both durability and grace. The sapphire glass crystal protects the dial, and water resistance up to 3 ATM ensures resilience in everyday wear. Perfect for both formal occasions and daily elegance, this vintage inspired watch makes a lasting impression.
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Price</p>
+                            <p>6,80,000</p>
+                        </div>
+                        <div>
+                            <p>Warranty Period</p>
+                            <p>Lifetime</p>
+                        </div>
+                        <div>
+                            <p>Strap Material</p>
+                            <p>18 Karat Gold</p>
+                        </div>
+                        <div>
+                            <p>Function</p>
+                            <p>Analog</p>
+                        </div>
+                        <div>
+                            <p>Case Thickness</p>
+                            <p>4.85 mm</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot_2025-03-09_114414-removebg-preview.png">
+                <div class="introduce">
+                    <div class="title">Titan Heritage..</div>
+                    <div class="topic">Premium Smartwatch </div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        itan Heritage Premium Smartwatch features a 3.63 CM AMOLED display with a 466x466 resolution and a durable all-SS construction. It offers 3D watch faces, a functional crown, and SingleSync™ BT Calling for seamless connectivity. Stay on top of your health with sports records and breathe exercises, while smart features like an AI voice assistant, find phone, and camera & music control provide added convenience.
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Premium Smartwatch</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Titan Heritage Premium Smartwatch features a 3.63 CM AMOLED display with a 466x466 resolution and a durable all-SS construction. It offers 3D watch faces, a functional crown, and SingleSync™ BT Calling for seamless connectivity
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Price</p>
+                            <p>19,000</p>
+                        </div>
+                        <div>
+                            <p>Warranty Period</p>
+                            <p>12 Months</p>
+                        </div>
+                        <div>
+                            <p>Function</p>
+                            <p>Smart</p>
+                        </div>
+                        <div>
+                            <p>Strap Color</p>
+                            <p>Blue</p>
+                        </div>
+                        <div>
+                            <p>Display Type</p>
+                            <p>AMOLED</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://assets.onecompiler.app/436smxxb2/3x2zp2yd7/Screenshot_2025-03-09_115148-removebg-preview.png">
+                <div class="introduce">
+                    <div class="title">Tommy Hilfiger</div>
+                    <div class="topic">Quartz Multifunction</div>
+                    <div class="des">
+                        <!-- 20 lorem -->
+                        Tommy Hilfiger Quartz Multifunction Grey dial Stainless Steel Strap Watch for Men.Tommy Hilfiger Quartz Multifunction Grey dial Stainless Steel Strap Watch for Men
+                    </div>
+                    <button class="seeMore">SEE MORE &#8599</button>
+                </div>
+                <div class="detail">
+                    <div class="title">Tommy Hilfiger</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Tommy Hilfiger Quartz Multifunction Grey dial Stainless Steel Strap Watch for Men.Tommy Hilfiger Quartz Multifunction Grey dial Stainless Steel Strap Watch for Men
+                    </div>
+                    <div class="specifications">
+                        <div>
+                            <p>Price</p>
+                            <p>16,000</p>
+                        </div>
+                        <div>
+                            <p>Warranty Period</p>
+                            <p>24 Months</p>
+                        </div>
+                        <div>
+                            <p>Function</p>
+                            <p>Multifunction</p>
+                        </div>
+                        <div>
+                            <p>Strap Color</p>
+                            <p>Two Toned gray</p>
+                        </div>
+                        <div>
+                            <p>Case Thickness</p>
+                            <p>10.5 mm</p>
+                        </div>
+                    </div>
+                    <div class="checkout">
+                        <button>ADD TO CART</button>
+                        <button>CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+            <button id="back">See All  &#8599</button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+
+<section id="collection" class="watch-gallery">
+    <div class="watch" onclick="showDetails(' Rolex ', '$515,000', 'img/11%20(1).png')">
+        <img src="img/11%20(1).png" alt="Rolex Watch">
+        <p>Rolex</p>
+    </div>
+    <div class="watch" onclick="showDetails(' Audemars Piguet', '$52,000', 'img/11%20(2).png')">
+        <img src="img/11%20(2).png" alt="Omega Watch">
+        <p> Audemars Piguet</p>
+    </div>
+    <div class="watch" onclick="showDetails('Patek Philippe', '$190,000', 'img/11%20(3).png')">
+        <img src="img/11%20(3).png" alt="Tag Heuer Watch">
+        <p>Patek Philipper</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Watch Zone! We showcase premium watches from top brands.</p>
+</section>
+<h1><u>                    Shop By Top Brands...              </u></h1>
+
+<div class="brand-wrapper">
+    <div class="brand-container">
+        <img src="img/1.png" alt="Titan">
+        <p>Titan</p>
+    </div>
+
+    <div class="brand-container">
+        <img src="img/3.png" alt="Fastrack">
+        <p>Fastrack</p>
+    </div>
+
+    <div class="brand-container">
+        <img src="img/2.png" alt="Sonata">
+        <p>Sonata</p>
+    </div>
+
+    <div class="brand-container">
+        <img src="img/4%20(3).png" alt="Tommy Hilfiger">
+        <p>Tommy Hilfiger</p>
+    </div>
+    <div class="brand-container">
+        <img src="img/4%20(4).png" alt="Police">
+        <p>Police</p>
+    </div>
+    <div class="brand-container">
+        <img src="img/4%20(1).png" alt="Edge">
+        <p>Edge</p>
+    </div>
+    <div class="brand-container">
+        <img src="img/4%20(2).png" alt="Nebula">
+        <p>Nebula</p>
+    </div>
+</div>
+<br>
+<h1>COLLECTIONS...</h1>
+<div>
+    <img src="img/5.png"width="1250"height="369">
+</div>
+<div>
+    <img src="img/6.png"width="1250"height="369">
+</div>
+
+<div class="features">
+    <div class="feature-box">
+        <img src="img/7%20(2).png" alt="100% Original">
+        <p>100% ORIGINAL</p>
+    </div>
+    <div class="feature-box">
+        <img src="img/7%20(3).png" alt="7 Day Return">
+        <p>7 DAY RETURN</p>
+    </div>
+    <div class="feature-box">
+        <img src="img/7%20(1).png" alt="Free Shipping">
+        <p>FREE SHIPPING</p>
+    </div>
+</div>
+<div class="login-container">
+    <h1>LOGIN FOR THE BEST EXPERIENCE</h1>
+    <a href="login.html" class="login-button">LOGIN NOW</a>
+    <br>
+    <a href="register.html" class="create-account">Create An Account</a>
+</div>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>COLLECTIONS</h3>
+            <a href="#">Titan Automatics</a>
+            <a href="#">Police Batman</a>
+            <a href="#">Stellar</a>
+            <a href="#">Raga Power Pearls</a>
+            <a href="#">Nebula Jewels</a>
+            <a href="#">Grandmaster</a>
+            <a href="#">Maritime</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>CUSTOMER SERVICE</h3>
+            <a href="#">Payment Options</a>
+            <a href="#">Track Order</a>
+            <a href="#">Encircle Program</a>
+            <a href="#">Find Titan World Stores</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <p>1800-266-0123</p>
+            <a href="#">customercare@titan.co.in</a>
+            <a href="#">Help & Contact</a>
+            <a href="#">FAQs</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>ABOUT TITAN</h3>
+            <a href="#">Brand Protection</a>
+            <a href="#">Corporate</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Download Titan World App</h3>
+            <div class="app-download">
+                <img src="img/9%20(2).png" alt="App Store">
+                <img src="img/9%20(3).png" alt="Google Play">
+            </div>
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <img src="img/9%20(1).png" alt="Facebook">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+        <div class="payment-methods">
+            <img src="img/10.png" alt="Visa">
+
+        </div>
+        <p>© 2025 Titan Company Limited. All Rights Reserved. | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+        <h3 class="animated-text">
+                NAME = REVANURU DINESH<BR>
+                PHONE NO = 9490912303<BR>
+                GMAIL = 23BTRDC065@JAINUNIVERSITY.COM
+
+        </h3>
+        <style>
+            .animated-text {
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                opacity: 0;
+                animation: fadeIn 1.5s ease-out forwards, slideUp 1.5s ease-out forwards;
+            }
+        </style>
+    </div>
+</footer>
+
+
+<!-- Watch Details Popup -->
+<div id="watch-details" class="details-popup">
+    <span class="close-btn" onclick="closeDetails()">&times;</span>
+    <h2 id="watch-name"></h2>
+    <img id="watch-image" src="" alt="Watch Image">
+    <p id="watch-price"></p>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
