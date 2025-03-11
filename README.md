@@ -61,3 +61,30 @@ NAME = R.Dinesh
 phone no = 9490912303
 📧 Email: dr567372@gmail.com
 
+# Titan Watch Clone ⌚
+
+A fully responsive clone of the Titan Watch website built using **HTML, CSS, and JavaScript**.
+
+## 🚀 Live Demo  
+🔗 [Click here to view](https://your-live-demo-link.com)  
+
+## 📌 Features  
+- ✅ Responsive Design  
+- ✅ Smooth Animations  
+- ✅ Search & Cart Functionality  
+- ✅ Optimized for Performance  
+
+## 🛠 Technologies Used  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+- **GitHub Pages / Netlify / Vercel**  
+
+## 📜 Installation  
+Follow these steps to run the project locally:  
+```bash
+git clone https://github.com/RevanuruDinesh/Titan-clone.git
+cd Titan-clone
+open index.html
+
+
