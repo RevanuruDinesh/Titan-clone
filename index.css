@@ -1,4 +1,4 @@
-/* General Styles */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -8,7 +8,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Menu Button */
+
 .menu-btn {
     position: fixed;
     top: 20px;
@@ -26,7 +26,6 @@ body {
     background-color: gray;
 }
 
-/* Sidebar Navigation */
 nav {
     position: fixed;
     left: -250px;
@@ -100,7 +99,7 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-/* Logo Section */
+
 .logo {
     display: flex;
     align-items: center;
@@ -109,20 +108,20 @@ header {
 }
 
 .logo img {
-    width: 150px; /* Adjust logo size */
+    width: 150px; 
     height: auto;
     margin-left: 60px;
     margin-bottom: 0px;
 }
 
-/* Search Bar */
+
 .search-bar {
     display: flex;
     align-items: center;
     background-color: #f5f5f5;
     padding: 8px 15px;
     border-radius: 20px;
-    width: 500px; /* Adjust search bar length */
+    width: 500px; 
 }
 
 .search-bar input {
@@ -139,7 +138,7 @@ header {
     cursor: pointer;
 }
 
-/* Header Icons */
+
 .header-icons {
     display: flex;
     gap: 20px;
@@ -162,23 +161,23 @@ header {
 
 
 
-/* Banner Section with Left & Right Margins */
+
 .banner {
     position: relative;
-    width: 90%; /* Make the banner take only 90% of the screen */
-    max-width: 1200px; /* Prevents banner from being too large */
+    width: 90%; 
+    max-width: 1200px; 
     height: 350px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     background: black;
-    margin: 30px auto; /* Centering and adding top/bottom margin */
-    border-radius: 10px; /* Smooth corners */
-    padding: 10px; /* Space inside the banner */
+    margin: 30px auto; 
+    border-radius: 10px; 
+    padding: 10px; 
 }
 
-/* Image Settings */
+
 .slides {
     position: relative;
     width: 100%;
@@ -188,14 +187,14 @@ header {
 .slides img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Show full image without cropping */
+    object-fit: cover; 
     position: absolute;
     top: -4%;
     left: -2%;
     opacity: 0;
     transition: opacity 1.0s ease-in-out;
-    padding: 20px; /* Adds space around the image */
-    border-radius: 10px; /* Makes edges smooth */
+    padding: 20px; 
+    border-radius: 10px; 
 }
 
 .slides img.active {
@@ -203,7 +202,7 @@ header {
 }
 
 
-/* Banner Text */
+
 .banner-text {
     position: absolute;
     top: 50%;
@@ -220,11 +219,11 @@ video {
     height: 100%;
     object-fit: cover;
 }
-/* 📌 Responsive Adjustments */
+
 @media (max-width: 768px) {
     .banner {
         height: 250px;
-        width: 85%;  /* Reduce width for tablets */
+        width: 85%;  
         margin: 20px auto;
     }
 }
@@ -232,7 +231,7 @@ video {
 @media (max-width: 480px) {
     .banner {
         height: 200px;
-        width: 80%;  /* Reduce width for mobile */
+        width: 80%;  
         margin: 15px auto;
     }
 }
@@ -288,7 +287,7 @@ header nav a{
     font-weight: 500;
 }
 
-/* carousel */
+
 .carousel{
     position: relative;
     height: 800px;
@@ -390,7 +389,7 @@ header nav a{
     opacity: var(--item5-opacity);
     pointer-events: none;
 }
-/* animation text in item2 */
+
 .carousel .list .item:nth-child(2) .introduce .title,
 .carousel .list .item:nth-child(2) .introduce .topic,
 .carousel .list .item:nth-child(2) .introduce .des,
@@ -458,7 +457,7 @@ header nav a{
         opacity: var(--item5-opacity);
     }
 }
-/* previous */
+
 .carousel.prev .list .item:nth-child(5){
     animation: transformFromPosition4 0.5s ease-in-out 1 forwards;
 }
@@ -479,12 +478,12 @@ header nav a{
     }
 }
 
-/* detail  */
+
 .carousel .list .item .detail{
     opacity: 0;
     pointer-events: none;
 }
-/* showDetail */
+
 .carousel.showDetail .list .item:nth-child(3),
 .carousel.showDetail .list .item:nth-child(4){
     left: 100%;
@@ -596,7 +595,7 @@ header nav a{
     letter-spacing: 3px;
     background-color: transparent;
     padding: 10px;
-    /* opacity: 0; */
+    
     transition: opacity 0.5s;
 }
 .carousel.showDetail #back{
@@ -638,7 +637,7 @@ header nav a{
     }
 }
 @media screen and (max-width: 767px){
-    /* mobile */
+    
     .carousel{
         height: 600px;
     }
@@ -675,7 +674,6 @@ header nav a{
 
 
 
-/* Watch Gallery */
 .watch-gallery {
     display: flex;
     justify-content: center;
@@ -703,7 +701,7 @@ header nav a{
     height: auto;
     border-radius: 10px;
 }
-/* Watch Details Popup */
+
 .details-popup {
     display: none;
     position: fixed;
@@ -742,7 +740,7 @@ header nav a{
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    width: 230px; /* Set fixed width */
+    width: 230px; 
 }
 
 .brand-container:hover {
@@ -750,7 +748,7 @@ header nav a{
 }
 
 .brand-container img {
-    width: 100%;  /* Responsive image */
+    width: 100%;  
     height: auto;
     border-radius: 10px;
 }
@@ -776,7 +774,7 @@ header nav a{
 }
 
 .feature-box img {
-    width: 50px; /* Adjust size as needed */
+    width: 50px; 
     height: auto;
     margin-bottom: 10px;
 }
@@ -850,7 +848,7 @@ footer {
     animation: fadeIn 1s ease-out forwards;
 }
 
-/* Heading Animation */
+
 #contact h2 {
     font-size: 28px;
     color: #333;
@@ -859,7 +857,7 @@ footer {
     cursor: pointer;
 }
 
-/* Form Styling */
+
 form {
     display: flex;
     flex-direction: column;
@@ -897,7 +895,6 @@ button:hover {
     background-color: #005bb5;
 }
 
-/* Fade-in Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -909,7 +906,7 @@ button:hover {
     }
 }
 
-/* Bounce Animation */
+
 @keyframes bounce {
     from {
         transform: translateY(0);
@@ -992,7 +989,7 @@ button:hover {
     }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     nav {
         width: 200px;
